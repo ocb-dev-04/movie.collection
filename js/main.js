@@ -21,7 +21,7 @@ function addLastMovies(){
         'skywraper'
     ];
     for(var cont = 0; cont <5;cont++){
-        $('.last_container').append("<div class='split_container'><img src='./src/img/"+ lastMovies[cont] +".jpg'></div>");
+        $('.last_container').append("<div class='split_container'><img src='./src/img/lastMovies/"+ lastMovies[cont] +".jpg'></div>");
     }
 
 }
@@ -41,22 +41,32 @@ function writeAlphabet(){
 function addAllMovies(){
     // this array will simulate an API response
     movieImg = [
-        'avenger-iw',
-        'cm',
-        'ff8',
-        'pr',
-        'skywraper'
+        'am',
+        'ca',
+        'cw',
+        'im1',
+        'im3',
+        'sc',
+        't1',
+        't2',
+        't3',
+        't4'
     ];
 
     movieTitle =[
-        'Avenger Infinity War',
-        'Capitana Marvel',
-        'Fast and Furios 8',
-        'Pacific Ring',
-        'Rascacielos'
+        'Ant Man',
+        'Capitan America',
+        'Civil War',
+        'Iron Man',
+        'Iron Man 3',
+        'Sarah Connor Cronicles',
+        'Terminator 1',
+        'Terminator 2',
+        'Terminator 3',
+        'Terminator 4'
     ];
 
-    for(var cont = 0; cont <5;cont++){
-        $('.movie_list').append("<div class='split_container'><img src='./src/img/"+ movieImg[cont] +".jpg'><a href='#'>"+ movieTitle[cont] + "</a></div>");
+    for(var cont = 0; cont <10; cont++){
+        $('.movie_list').append("<div class='split_container'><img src='./src/img/allMovies/"+ movieImg[cont] +".jpg'><a href='#'>"+ movieTitle[cont] + "</a></div>");
     }
 }
