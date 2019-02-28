@@ -139,12 +139,22 @@ section div div{
     justify-content: space-around;
 }
 
-.alphabet_order a{
+.past_next{
     font-weight: bold;
     text-decoration: none;
     color: orange;
 }
 
+.letters{
+    display: flex;
+    justify-content: space-around;
+}
+
+.letters a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
                         /* movies list area */
 .movie_list{
     margin-top: 5px;
